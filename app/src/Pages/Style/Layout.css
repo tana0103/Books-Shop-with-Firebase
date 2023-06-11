@@ -1,0 +1,32 @@
+main{
+	background:
+		radial-gradient(circle at 50% 0,
+			rgba(255, 0, 0, .5),
+			rgba(255, 0, 0, 0) 70.71%),
+		radial-gradient(circle at 6.7% 75%,
+			rgba(0, 0, 255, .5),
+			rgba(0, 0, 255, 0) 70.71%),
+		radial-gradient(circle at 93.3% 75%,
+			rgba(0, 255, 0, .5),
+			rgba(0, 255, 0, 0) 70.71%) beige;
+	min-height: 90vh;
+	padding-top: 30px;
+}
+
+nav{
+	display: flex;
+	justify-content: space-around;
+	padding: 20px;
+	background: conic-gradient(from 45deg, red, orange, yellow, green, blue, purple);
+}
+
+.font{
+font-size: 35px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: rgb(28, 28, 61);
+text-decoration: none;
+}
+
+.font:hover{
+	text-decoration:underline;
+}
