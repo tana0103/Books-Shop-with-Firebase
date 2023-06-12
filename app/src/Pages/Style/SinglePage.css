@@ -30,6 +30,8 @@ font-weight: 600;
 @media (max-width: 700px) {
 	.box{
 		flex-direction: column;
+		margin: 0;
+		padding:0;
 	}
 
 	.img, .description{
@@ -44,7 +46,11 @@ font-weight: 600;
 
 @media (max-width: 500px) {
 	.description{
+		width: 90%;
 		margin-left: 50px;
+	}
+	.title{
+		margin-left: 0px;
 	}
 }
 
