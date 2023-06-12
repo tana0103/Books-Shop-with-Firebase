@@ -11,8 +11,8 @@ export const SinglePage = () => {
 				<img src={params.state.img} />
 			</div>
 			<div className="description">
-				<h2>Subtitle: {params.state.subtitle}</h2>
-				<h2>Price: {params.state.price}</h2>
+				<h3>Subtitle: {params.state.subtitle}</h3>
+				<h3>Price: {params.state.price}</h3>
 			</div>
 		</div>
 	)
