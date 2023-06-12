@@ -30,3 +30,15 @@ text-decoration: none;
 .font:hover{
 	text-decoration:underline;
 }
+
+@media (max-width: 700px) {
+	.font {
+		font-size: 25px;
+	}
+}
+
+@media (max-width: 400px) {
+	.font {
+		font-size: 20px;
+	}
+}
