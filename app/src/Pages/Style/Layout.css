@@ -16,7 +16,6 @@ main{
 nav{
 	display: flex;
 	justify-content: space-around;
-	padding: 20px;
 	background: conic-gradient(from 45deg, red, orange, yellow, green, blue, purple);
 }
 
@@ -25,6 +24,7 @@ font-size: 35px;
 font-family: Georgia, 'Times New Roman', Times, serif;
 color: rgb(28, 28, 61);
 text-decoration: none;
+padding: 20px;
 }
 
 .font:hover{
